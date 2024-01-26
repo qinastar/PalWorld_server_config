@@ -86,7 +86,7 @@ const miaoshu = ref([
   },
   {
     name: "bActiveUNKO",
-    label: "默认：False\n神秘的UNKO事件关闭开启 (True/False)",
+    label: "默认：False\n帕鲁大便开关 (True/False)",
     type: "bool",
   },
   { name: "BanListURL", label: "封锁名单 (目前来自官方)", type: "string" },
@@ -114,7 +114,7 @@ const miaoshu = ref([
   },
   {
     name: "bEnableAimAssistPad",
-    label: "默认：False\n手把辅助瞄准 (True/False)",
+    label: "默认：False\n手柄辅助瞄准 (True/False)",
     type: "bool",
   },
   {
@@ -145,7 +145,7 @@ const miaoshu = ref([
   },
   {
     name: "bEnablePlayerToPlayerDamage",
-    label: "默认: False\n[推荐用于PVP] 玩家对玩家伤害 (True/False)",
+    label: "默认: False\n[推荐用于PVP] [暂时无效]玩家对玩家伤害 (True/False)",
     type: "bool",
   },
   {
@@ -155,7 +155,7 @@ const miaoshu = ref([
   },
   {
     name: "bIsMultiplay",
-    label: "默认: False\n未知作用 (True/False)",
+    label: "默认: False\n开启后你的服务器将会出现在服务器列表 (True/False)",
     type: "bool",
   },
   {
@@ -225,7 +225,7 @@ const miaoshu = ref([
     type: "none",
   },
   { name: "DropItemMaxNum", label: "世界内的掉落物上限", type: "none" },
-  { name: "DropItemMaxNum_UNKO", label: "神秘UNKO掉落物上限", type: "none" },
+  { name: "DropItemMaxNum_UNKO", label: "帕鲁的大便掉落物上限", type: "none" },
   { name: "EnemyDropItemRate", label: "默认：1\n敌人掉落倍率", type: "none" },
   { name: "ExpRate", label: "默认：1\n经验倍率", type: "none" },
   { name: "GuildPlayerMaxNum", label: "公会人数上限", type: "none" },
@@ -247,7 +247,7 @@ const miaoshu = ref([
   {
     name: "PalCaptureRate",
     label:
-      "默认：1\n帕鲁抓捕机率 (0.5 - 2)\nPS: 这个参数调整非常敏感请谨慎调整。困难模式为0.8，简单模式为2",
+      "默认：1\n帕鲁抓捕几率 (0.5 - 2)\nPS: 这个参数调整非常敏感请谨慎调整。困难模式为0.8，简单模式为2",
     type: "none",
   },
   {
@@ -324,7 +324,7 @@ const miaoshu = ref([
   { name: "ServerName", label: "服务器名称", type: "string" },
   {
     name: "ServerPassword",
-    label: "服务器密码 (需等待官方更新耐久耐久修复)",
+    label: "服务器密码",
     type: "string",
   },
   { name: "ServerPlayerMaxNum", label: "服务器最大人数", type: "none" },
